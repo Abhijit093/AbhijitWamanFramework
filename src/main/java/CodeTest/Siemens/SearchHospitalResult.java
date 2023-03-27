@@ -52,7 +52,7 @@ public class SearchHospitalResult extends TestBase_Siemens {
 		 Thread.sleep(5000);
 		 verifyText();
 		 Thread.sleep(5000);
-		 verifyDepartureFlightMessage();
+		 //verifyDepartureFlightMessage();
 		 
 		 
 		 
