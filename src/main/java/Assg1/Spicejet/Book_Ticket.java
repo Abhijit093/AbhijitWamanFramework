@@ -41,13 +41,7 @@ public class Book_Ticket extends TestBase_Spicejet
      
      @FindBy(xpath="//input[@id='ControlGroupSearchView_AvailabilitySearchInputSearchViewdestinationStation1_CTXT']")
      private WebElement Return_Date;
-     
-     //@FindBy(xpath="(//a[text()=' Kochi (COK)'])[2]")
-    // private WebElement Ret_Date;
-     
-     
-     //@FindBy(xpath="")
-     
+          
      @FindBy(xpath="//div[@id='divpaxinfo']")
      private WebElement passanger;
      
@@ -62,8 +56,6 @@ public class Book_Ticket extends TestBase_Spicejet
      
      @FindBy(xpath="//input[@id='ControlGroupSearchView_AvailabilitySearchInputSearchView_ButtonSubmit']")
      private WebElement SearchButton;
-     
-     
      
      
      public void city(String city)
@@ -143,6 +135,8 @@ public class Book_Ticket extends TestBase_Spicejet
      
      public String verifyText()
      {
+    	 
+    	
     	 String Text =verifyText.getText();
     	 return Text;
      }

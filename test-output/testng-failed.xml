@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BookMyshow.Bookmyshow_Test">
+      <class name="Siemens.Siemens_Testclass">
         <methods>
-          <include name="Open"/>
-          <include name="Setup"/>
-          <include name="tearDown"/>
+          <include name="navigatesSiemens"/>
+          <include name="stratExcution"/>
+          <include name="tesrDown"/>
         </methods>
-      </class> <!-- BookMyshow.Bookmyshow_Test -->
+      </class> <!-- Siemens.Siemens_Testclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase_Spicejet 
 {
-	public static WebDriver driver;
+	 public static WebDriver driver;
 	
 	@BeforeMethod
 	public void Setup()
